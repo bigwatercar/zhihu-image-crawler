@@ -4,7 +4,7 @@
 先打开知乎话题页面，然后在控制台执行下面代码：
 
 ```Javascript
-getmore() {  	
+function getmore() {  	
   var e = $(".zg-btn-white.zu-button-more"); 	
   if (e.length!=0) { 		
       setTimeout('getmore()', 2000); 		
